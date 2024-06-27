@@ -7,4 +7,8 @@ export class Rover {
     this.starting_point = starting_point;
     this.direction = direction;
   }
+
+  commands(commands: any[]): string {
+    return "ack";
+  }
 }
