@@ -1,10 +1,10 @@
+import { Point } from "./point";
+
 export class Rover {
-  x_pos: number;
-  y_pos: number;
+  starting_point: Point;
   direction: string;
-  constructor(x_pos: number, y_pos: number, direction: string) {
-    this.x_pos = x_pos;
-    this.y_pos = y_pos;
+  constructor(starting_point: Point, direction: string) {
+    this.starting_point = starting_point;
     this.direction = direction;
   }
 }
